@@ -1,9 +1,12 @@
+@import '_base';
+
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0d5b62;
-  color: #FFFFFF;
+  background-color: $main-color;
+  color: $main-text-color;
   height: 120px;
   width: 100%;
   padding-left: 1.5em;
@@ -16,10 +19,10 @@ nav {
 #arrow-icon {
   display: flex;
   justify-content: center;
-  color: #e7582a;
+  color: $alt-icon-color;
 }
 
 .logo {
   font-size: 1.5em;
-  font-family: "Pacifico", cursive;
+  font-family: $logo-font
 }

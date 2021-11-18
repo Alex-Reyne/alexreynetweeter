@@ -3,10 +3,11 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+@import '_base';
+
 html {
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -14,22 +15,25 @@ html {
 /*
  * Global layout stuff
  */
+
 body {
-  background-color: #85bec0;
+  background-color: $background-color;
   font-size: 24px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $main-font;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
-main {
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: #85bec0;
-}
 
-@media only screen and (min-width: 1024px) {
+ main {
+   margin-left: 5%;
+   margin-right: 5%;
+   background-color:$background-color;
+ }
+
+ @media only screen and (min-width: 1024px) {
+
   body {
     display: flex;
     flex-direction: row;
@@ -42,7 +46,7 @@ main {
     margin-top: 12rem;
     margin-left: 3em;
   }
-
+  
   div.profile-info {
     display: flex;
     align-items: center;
@@ -57,4 +61,5 @@ main {
   textarea#tweet-text {
     margin-top: 0px;
   }
+  
 }
