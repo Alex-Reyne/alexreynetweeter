@@ -17,7 +17,7 @@ form {
   min-width: 100%;
   max-width: 100%;
   font-weight: bolder;
-  color: #151515;
+  color: #232323;
   padding-bottom: 0.5em;
   border: none;
   border-bottom: 3px solid #232323;
@@ -35,11 +35,11 @@ form {
 button {
   display: flex;
   color: #FFFFFF;
-  background-color: #4f8f91;
-  font-family: "Bebas Neue", cursive;
+  background-color: #0d5b62;
+  font-family: "Bebas neue", sans-serif;
   letter-spacing: 0.15em;
   align-self: flex-end;
-  border: 0.15em solid #0d5b62;
+  border: 0.15em solid #083539;
 }
 
 button:hover {
@@ -48,8 +48,9 @@ button:hover {
 }
 
 output {
-  color: #134245;
-  font-family: "Bungee", cursive;
+  color: #083539;
+  font-family: "Bebas neue", sans-serif;
+  font-size: larger;
 }
 
 #negative {

@@ -1,8 +1,9 @@
 // colors
 
 $main-color: #0d5b62;
+$border-color: #083539;
 $background-color: #85bec0;
-$black: #151515;
+$black: #232323;
 $main-text-color: #FFFFFF;
 $alt-icon-color: #e7582a;
 
@@ -10,3 +11,25 @@ $alt-icon-color: #e7582a;
 $logo-font: 'Pacifico', cursive;
 $button-font: 'Bebas neue', sans-serif;
 $main-font: 'Source Sans Pro', sans-serif;
+
+@mixin vert-align {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@mixin mobile-head-align {
+
+  @media only screen and (max-width: 1023px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div.profile-info {
+      margin-top: 9rem;
+    }
+  }
+  
+}

@@ -40,7 +40,7 @@ body {
   }
 
   header.main {
-    display: flex;
+    @include vert-align;
     max-width: 28%;
     max-height: 17.5em;
     margin-top: 12rem;
@@ -60,6 +60,10 @@ body {
 
   textarea#tweet-text {
     margin-top: 0px;
+  }
+
+  div.user-name h2 {
+    margin: 0 0 0 0;
   }
   
 }

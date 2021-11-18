@@ -23,7 +23,7 @@ article.tweet header {
   flex-direction: row;
   align-items: center;
   margin-left: 0.5em;
-  color: #151515;
+  color: #232323;
 }
 
 article .handle {
@@ -51,7 +51,7 @@ p.feed-tweet-text {
   margin-top: 1.25em;
   width: 95%;
   border: none;
-  border-top: 4px solid #151515;
+  border-top: 4px solid #232323;
 }
 
 article.tweet footer {
@@ -63,7 +63,7 @@ article.tweet footer {
 }
 
 .icons {
-  color: #134245;
+  color: #0d5b62;
 }
 
 .fab, .fas, .far {

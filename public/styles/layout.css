@@ -37,6 +37,8 @@ main {
 
   header.main {
     display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 28%;
     max-height: 17.5em;
     margin-top: 12rem;
@@ -56,5 +58,9 @@ main {
 
   textarea#tweet-text {
     margin-top: 0px;
+  }
+
+  div.user-name h2 {
+    margin: 0 0 0 0;
   }
 }
