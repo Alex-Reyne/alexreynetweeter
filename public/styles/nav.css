@@ -13,6 +13,10 @@ nav {
   top: 0;
 }
 
+.nav-text {
+  cursor: pointer;
+}
+
 #arrow-icon {
   display: flex;
   justify-content: center;

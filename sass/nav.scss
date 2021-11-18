@@ -1,6 +1,5 @@
 @import '_base';
 
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -14,6 +13,9 @@ nav {
   overflow: hidden;
   position: fixed;
   top: 0;
+}
+.nav-text {
+  cursor: pointer;
 }
 
 #arrow-icon {
