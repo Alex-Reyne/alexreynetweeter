@@ -1,0 +1,82 @@
+form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-content: flex-start;
+}
+
+#tweet-text::placeholder {
+  color: #FFFFFF;
+  opacity: 30%;
+}
+
+#tweet-text {
+  margin-top: 1em;
+  height: 3em;
+  min-height: 3em;
+  min-width: 100%;
+  max-width: 100%;
+  font-weight: bolder;
+  color: #151515;
+  padding-bottom: .5em;
+  border: none;
+  border-bottom: 3px solid #232323;
+  background: none;
+  outline: none;
+}
+
+.bottom-content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+button {
+  display: flex;
+  color: #FFFFFF;
+  background-color: #4f8f91;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .15em;
+  align-self: flex-end;
+  border: .15em solid #0d5b62;
+
+}
+
+button:hover {
+  border: .15em solid #e7582a;
+  transition-duration: 0.4s;
+}
+
+output {
+  color: #134245;
+  font-family: 'Bungee', cursive;
+}
+
+#negative {
+  color: red;
+}
+
+main h2 {
+  font-weight: bolder;
+}
+
+div:empty {
+  display: none;
+}
+
+div #error-alert {
+  display: flex;
+  justify-content: center;
+  background: none;
+  font-weight: bolder;
+  color: red;
+  border: .15em solid red;
+  border-radius: .5em;
+  box-shadow: 0px 0px 5px red;
+  opacity: 50%;
+}
+
+.bottom-content p.error {
+  margin: 0px 10px 0px 10px;
+}

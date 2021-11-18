@@ -16,10 +16,20 @@ html {
 
 body {
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: #85bec0;
   font-size: 24px;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ body {
+   font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ main {
+   margin-left: 5%;
+   margin-right: 5%;
+   background-color: #85bec0;
+ }
