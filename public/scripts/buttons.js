@@ -6,28 +6,36 @@ $(document).ready(function() {
 
   // handles the nav button "write a new tweet"
   $('.nav-text').on('click', function() {
+    
+    // hides error messages when clicked
+    $(".error-alert1").hide();
+    $(".error-alert2").hide();
 
     // slides the new-tweet box into view or out of view
     // when nav button is clicked
-    $('.new-tweet').is(':hidden') ? 
-    $(".new-tweet").slideDown() :
-    $(".new-tweet").slideUp();
+    $('.new-tweet').is(':hidden') ?
+      $(".new-tweet").slideDown() :
+      $(".new-tweet").slideUp();
 
     // focus the tweet-text box when the nav button is
     // clicked
-    $("#tweet-text").focus()
+    $("#tweet-text").focus();
 
   });
 
   // handles the to-top button
   $('#to-top').on('click', function() {
 
+    // hides error messages when clicked.
+    $(".error-alert1").hide();
+    $(".error-alert2").hide();
+
     // scroll to top when clicked
     // then reveal the new-tweet box
     // then focus the tweet-text box
     $("html, body").animate({ scrollTop: 0 }, "slow");
-    $(".new-tweet").slideDown()
-    $("#tweet-text").focus()
+    $(".new-tweet").slideDown();
+    $("#tweet-text").focus();
 
   });
 

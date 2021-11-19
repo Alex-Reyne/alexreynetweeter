@@ -17,7 +17,7 @@ $(document).ready(function() {
         // empty the html here so that the page
         // doesn't load double the tweets every time we post.
         // having it here also keep the load fresh so that it
-        // doesn't look like we are refreshing anything. 
+        // doesn't look like we are refreshing anything.
         $('#tweets-container').empty();
         renderTweets(tweetsHTML);
       });
@@ -47,7 +47,7 @@ $(document).ready(function() {
       let div = document.createElement('div');
       div.appendChild(document.createTextNode(string));
       return div.innerHTML;
-    }
+    };
 
     // holds the article format.
     const $tweet = $(`
@@ -102,7 +102,7 @@ $(document).ready(function() {
     }
     
     // makes an ajax POST request to add
-    // the new tweet to database. 
+    // the new tweet to database.
     $.ajax({
       method: 'POST',
       url: '/tweets',
@@ -110,13 +110,14 @@ $(document).ready(function() {
     })
       // when request is successful we clear the text box
       // and call loadTweets() to make the new tweet show up.
-      .then(function(msg) {
+      .then(function() {
         $("#tweet-text").val('');
         loadTweets();
-      })
+      });
 
-      // resets the character counter back to 140.
-      $(this).find('.counter').text(140);
-    });
+    // resets the character counter back to 140.
+    $(this).find('.counter').text(140);
+
+  });
     
 });
