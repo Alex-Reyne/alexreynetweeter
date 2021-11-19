@@ -1,5 +1,4 @@
 // colors
-
 $main-color: #0d5b62;
 $border-color: #083539;
 $background-color: #85bec0;
@@ -12,6 +11,7 @@ $logo-font: 'Pacifico', cursive;
 $button-font: 'Bebas neue', sans-serif;
 $main-font: 'Source Sans Pro', sans-serif;
 
+// align elements vertically
 @mixin vert-align {
   
   display: flex;
@@ -20,6 +20,7 @@ $main-font: 'Source Sans Pro', sans-serif;
 
 }
 
+// aligns the header vertically on mobile view.
 @mixin mobile-head-align {
 
   @media only screen and (max-width: 1023px) {
