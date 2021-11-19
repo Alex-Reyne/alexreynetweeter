@@ -6,7 +6,7 @@ form {
 }
 
 #tweet-text::placeholder {
-  color: #FFFFFF;
+  color: #232323;
   opacity: 30%;
 }
 
@@ -35,11 +35,11 @@ form {
 button {
   display: flex;
   color: #FFFFFF;
-  background-color: #0d5b62;
+  background-color: #5FB49C;
   font-family: "Bebas neue", sans-serif;
   letter-spacing: 0.15em;
   align-self: flex-end;
-  border: 0.15em solid #083539;
+  border: 0.15em solid #232323;
 }
 
 button:hover {
@@ -48,7 +48,7 @@ button:hover {
 }
 
 output {
-  color: #083539;
+  color: #232323;
   font-family: "Bebas neue", sans-serif;
   font-size: larger;
 }

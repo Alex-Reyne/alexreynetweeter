@@ -1,7 +1,8 @@
 article.tweet {
   margin-top: 1em;
   margin-bottom: 1em;
-  border: 4px solid #0d5b62;
+  border: 4px solid #5FB49C;
+  background: url("../images/cubes.png");
   background-color: #FFFFFF;
 }
 
@@ -63,7 +64,7 @@ article.tweet footer {
 }
 
 .icons {
-  color: #0d5b62;
+  color: #5FB49C;
 }
 
 .fab, .fas, .far {

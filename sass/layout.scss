@@ -39,6 +39,8 @@ body {
   z-index: 99; /* Make sure it does not overlap */
  }
 
+
+// for desktop size displays
  @media only screen and (min-width: 1024px) {
 
   body {
@@ -51,7 +53,7 @@ body {
     max-width: 28%;
     max-height: 17.5em;
     margin-top: 12rem;
-    margin-left: 3em;
+    margin-left: 1.5em;
   }
   
   div.profile-info {
@@ -71,6 +73,14 @@ body {
 
   div.user-name h2 {
     margin: 0 0 0 0;
+  }
+
+  form {
+    margin-bottom: 1em;
+  }
+
+  section#tweets-container article {
+    margin-top: 0em;
   }
   
 }

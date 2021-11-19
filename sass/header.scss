@@ -4,8 +4,8 @@ header.main {
   @include mobile-head-align;
   width: 100%;
   height: 520px;
-  background: url('../images/bright-squares.png');
-  background-color: $main-color;
+  background: url('../images/cubes.png');
+  background-color: $header-color;
   color: $main-text-color;
   font-family: $main-font
 }

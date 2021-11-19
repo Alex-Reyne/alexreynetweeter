@@ -1,24 +1,24 @@
 [
   {
     "user": {
-      "name": "Newton",
-      "avatars": "https://i.imgur.com/73hZDYK.png",
-      "handle": "@SirIsaac"
+      "name": "Alexander",
+      "avatars": "../images/profile-hex.png",
+      "handle": "@Alex-Reyne"
     },
     "content": {
-      "text": "If I have seen further it is by standing on the shoulders of giants"
+      "text": "I know kung-f... I mean, CSS..."
     },
-    "created_at": 1637098215469
+    "created_at": 1637116289859
   },
   {
     "user": {
-      "name": "Descartes",
-      "avatars": "https://i.imgur.com/nlhLi3I.png",
-      "handle": "@rd"
+      "name": "Larry",
+      "avatars": "../images/larry-profile-hex.png",
+      "handle": "@lhl-larry"
     },
     "content": {
-      "text": "Je pense , donc je suis"
+      "text": "AHHHHHH!"
     },
-    "created_at": 1637184615469
+    "created_at": 1637202689859
   }
 ]

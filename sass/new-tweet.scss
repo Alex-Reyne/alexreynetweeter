@@ -8,7 +8,7 @@ form {
 }
 
 #tweet-text::placeholder {
-  color: $main-text-color;
+  color: $black;
   opacity: 30%;
 }
 
@@ -41,7 +41,7 @@ button {
   font-family: $button-font;
   letter-spacing: .15em;
   align-self: flex-end;
-  border: .15em solid $border-color;
+  border: .15em solid $black;
 
 }
 
@@ -51,7 +51,7 @@ button:hover {
 }
 
 output {
-  color: $border-color;
+  color: $black;
   font-family: $button-font;
   font-size: larger;
 }

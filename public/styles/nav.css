@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0d5b62;
+  background-color: #5FB49C;
   color: #FFFFFF;
   height: 120px;
   width: 100%;
@@ -26,4 +26,5 @@ nav {
 .logo {
   font-size: 1.5em;
   font-family: "Pacifico", cursive;
+  text-shadow: 0.2rem 0.2rem #232323;
 }
